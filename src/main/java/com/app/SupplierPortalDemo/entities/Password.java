@@ -17,6 +17,7 @@ public class Password implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(unique=true, nullable=false)
 	private int id_password;
 //
@@ -35,29 +36,29 @@ public class Password implements Serializable {
 	private String password;
 	
 	public Password(){}
-	
+
 	public int getId_password() {
 		return id_password;
 	}
+
 	public void setId_password(int id_password) {
 		this.id_password = id_password;
 	}
+
 	public Fornitore getFornitore() {
 		return fornitore;
 	}
+
 	public void setFornitore(Fornitore fornitore) {
 		this.fornitore = fornitore;
 	}
+
 	public String getPassword() {
 		return password;
 	}
+
 	public void setPassword(String password) {
 		this.password = password;
 	}
-
-	
-
-
-
 
 }

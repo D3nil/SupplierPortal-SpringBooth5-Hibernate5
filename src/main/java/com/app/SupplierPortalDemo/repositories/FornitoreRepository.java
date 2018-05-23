@@ -15,6 +15,5 @@ import com.app.SupplierPortalDemo.entities.Fornitore;
 @Repository
 public interface FornitoreRepository extends JpaRepository<Fornitore, Integer>
 {
-
 	}
 

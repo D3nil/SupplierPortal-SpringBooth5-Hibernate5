@@ -3,5 +3,7 @@
 	<persistence-unit name="SupplierPortalDemo">
 		<class>com.app.SupplierPortalDemo.entities.Password</class>
 		<class>com.app.SupplierPortalDemo.entities.Fornitore</class>
+		<class>com.app.SupplierPortalDemo.entities.Tipo</class>
+		<class>com.app.SupplierPortalDemo.entities.TempFornitore</class>
 	</persistence-unit>
 </persistence>
